@@ -161,16 +161,16 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate, variant = 'transpare
 
                 {/* Column 3: Featured Image 2 */}
                 <div className="lg:col-span-5">
-                   <div 
-                    className="aspect-[16/10] overflow-hidden bg-gray-100 mb-6 cursor-pointer"
-                    onClick={(e) => { e.preventDefault(); onNavigate && onNavigate('new-arrivals'); setActiveDropdown(null); }}
-                   >
+                  <div 
+                   className="aspect-[16/10] overflow-hidden bg-gray-100 mb-6 cursor-pointer"
+                   onClick={(e) => { e.preventDefault(); onNavigate && onNavigate('new-arrivals'); setActiveDropdown(null); }}
+                  >
                      <img 
-                       src="https://images.unsplash.com/photo-1595514020175-1c863c3d550b?q=80&w=1200&auto=format&fit=crop" 
-                       alt="New Arrivals" 
-                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                      src="/new arrival.avif" 
+                      alt="New Arrivals" 
+                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                      />
-                   </div>
+                  </div>
                    <a href="#" onClick={(e) => handleSubLinkClick(e, 'new-arrivals')}>
                     <h3 className="text-2xl font-serif hover:underline">View All New Arrivals</h3>
                    </a>

@@ -32,7 +32,7 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Newsletter Box */}
-        <div className="bg-white border border-gray-100 rounded-lg overflow-hidden shadow-sm flex flex-col md:flex-row md:col-span-2 lg:col-span-2">
+        <div className="bg-white border border-gray-100 rounded-lg overflow-hidden shadow-sm flex flex-col md:flex-row md:col-span-2 lg:col-span-1 lg:justify-self-end lg:max-w-sm">
           <div className="md:w-1/2">
             <img
               src="/newsletter.avif"
@@ -40,13 +40,13 @@ export const Footer: React.FC = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="md:w-1/2 p-8 flex flex-col justify-center gap-4">
-            <h3 className="font-serif text-2xl text-gray-900">Our newsletter</h3>
-            <p className="text-base text-gray-800 leading-relaxed">
+          <div className="md:w-1/2 p-6 flex flex-col justify-center gap-3">
+            <h3 className="font-serif text-xl text-gray-900">Our newsletter</h3>
+            <p className="text-sm text-gray-800 leading-relaxed">
               Be the first to hear about new collections, interiors advice,
               and exclusive promotions
             </p>
-            <button className="mt-2 inline-flex items-center justify-center px-8 py-3 rounded-full border-2 border-gray-900 text-base font-semibold text-gray-900 transition-colors hover:bg-gray-100">
+            <button className="mt-1 inline-flex items-center justify-center px-6 py-3 rounded-full border-2 border-gray-900 text-sm font-semibold text-gray-900 transition-colors hover:bg-gray-100">
               Subscribe
             </button>
           </div>
