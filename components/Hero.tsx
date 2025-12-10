@@ -2,14 +2,10 @@ import React from 'react';
 
 export const Hero: React.FC = () => {
   return (
-    <section className="relative h-[85vh] w-full overflow-hidden">
-      <img 
-        src="https://images.unsplash.com/photo-1616486338812-3dadae4b4f9d?q=80&w=2670&auto=format&fit=crop" 
-        alt="Dining Room" 
-        className="absolute inset-0 w-full h-full object-cover"
-      />
-      
-      {/* Overlay Gradient */}
+    <section
+      className="relative h-[85vh] w-full overflow-hidden bg-cover bg-center"
+      style={{ backgroundImage: "url('/sooho%20hero.avif')" }}
+    >
       <div className="absolute inset-0 bg-black/20"></div>
 
       {/* Content */}
