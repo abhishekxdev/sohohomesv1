@@ -7,6 +7,7 @@ interface FeatureSplitProps {
   title: string;
   description: string;
   buttonText: string;
+  background?: string;
 }
 
 export const FeatureSplit: React.FC<FeatureSplitProps> = ({ 
@@ -15,14 +16,16 @@ export const FeatureSplit: React.FC<FeatureSplitProps> = ({
   image, 
   title, 
   description, 
-  buttonText 
+  buttonText,
+  background
 }) => {
+  const textBackground = dark ? '#4a5157' : background || '#f4f4f4';
   return (
     <section className={`flex flex-col ${reversed ? 'md:flex-row-reverse' : 'md:flex-row'} min-h-[500px] md:h-[600px]`}>
       
       {/* Text Side */}
       <div className={`w-full md:w-1/2 flex items-center justify-center p-8 md:p-16 lg:p-24 
-        ${dark ? 'bg-[#4a5157] text-white' : 'bg-[#f4f4f4] text-gray-900'}`}>
+        ${dark ? 'bg-[#4a5157] text-white' : 'text-gray-900'}`} style={{ backgroundColor: textBackground }}>
         <div className="max-w-md">
           <h2 className="text-3xl md:text-5xl font-serif mb-6">{title}</h2>
           <p className={`text-sm md:text-base font-sans mb-8 leading-relaxed ${dark ? 'text-gray-200' : 'text-gray-700'}`}>
