@@ -35,7 +35,7 @@ export const Footer: React.FC = () => {
         <div className="bg-white border border-gray-100 rounded-lg overflow-hidden shadow-sm flex flex-col md:flex-row md:col-span-2 lg:col-span-1 lg:justify-self-end lg:max-w-sm">
           <div className="md:w-1/2">
             <img
-              src="/newsletter.avif"
+              src="/newsletter.png"
               alt="Bedroom"
               className="w-full h-full object-cover"
             />

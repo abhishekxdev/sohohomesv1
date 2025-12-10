@@ -166,7 +166,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate, variant = 'transpare
                    onClick={(e) => { e.preventDefault(); onNavigate && onNavigate('new-arrivals'); setActiveDropdown(null); }}
                   >
                      <img 
-                      src="/new arrival.avif" 
+                      src="/newarrival.png" 
                       alt="New Arrivals" 
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                      />

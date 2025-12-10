@@ -6,7 +6,7 @@ export const SplitBanner: React.FC = () => {
       {/* Left Item */}
       <div className="relative aspect-[4/3] md:aspect-square lg:aspect-[16/10] group overflow-hidden">
         <img 
-          src="/personalised.avif" 
+          src="/personalised.png" 
           alt="Personalised gift" 
           className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
         />

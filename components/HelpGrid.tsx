@@ -3,7 +3,7 @@ import React from 'react';
 const items = [
   { title: "Contact us", img: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=800&auto=format&fit=crop" },
   { title: "Find a Studio", img: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop" },
-  { title: "Interior Design Service", img: "/interior designer.avif" },
+  { title: "Interior Design Service", img: "/interior%20designer.png" },
   { title: "Buying guides", img: "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=800&auto=format&fit=crop" }
 ];
 
