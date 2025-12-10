@@ -9,7 +9,7 @@ const items = [
 
 export const HelpGrid: React.FC = () => {
   return (
-    <section className="py-16 md:py-24 px-6 max-w-[1920px] mx-auto bg-[#f4f4f4]">
+    <section className="py-16 md:py-24 px-6 max-w-[1920px] mx-auto bg-white">
       <h2 className="text-2xl md:text-3xl font-serif text-gray-900 mb-8">We're here to help</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {items.map((item, idx) => (
